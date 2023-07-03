@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#calendar {
+	margin: 20px auto;
+	max-width: 800px;
+}
+
+#debtGraph {
+	margin: 20px auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+#paymentContainer,
+#debtContainer {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+#paymentContainer h3,
+#debtContainer h3 {
+	margin-top: 0;
+}
+
+#paymentContainer label,
+#debtContainer label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#paymentContainer input[type='text'],
+#debtContainer input[type='text'] {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+/* Hover animation */
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ddd;
+	color: #333;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #aaa;
+	color: #fff;
+}
